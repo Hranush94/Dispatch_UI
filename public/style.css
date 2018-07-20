@@ -1,0 +1,418 @@
+html, body, #root {
+    height: 100%;
+}
+
+.panel-pic {
+    height: auto !important;
+    width: initial !important;
+}
+
+.modal-container {
+    position: relative;
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+#root .map-div {
+    height: 100%;
+    width: 100%;
+}
+
+.shake {
+    animation: shake 800ms;
+}
+
+.btn.dropdown-toggle:after {
+    display: none
+}
+
+
+.side-menu-list {
+    display: block !important;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.table-reports tbody {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-reports {
+    display: initial !important;
+}
+
+/*@media (min-width: 992px) {*/
+/*.modal-content {*/
+/*width: 850px !important;*/
+/*max-width: 850px !important;*/
+/*overflow: auto;*/
+/*}*/
+/*}*/
+
+#driverList {
+    display: block;
+    width: 100%;
+}
+
+div.search-drivers {
+    width: 98%;
+    margin-left: 1%;
+}
+
+.search-drivers-icon {
+    position: absolute;
+    right: 15px;
+    top: 38%;
+    color: #5E5B5E;
+}
+
+#setLocation, #setSite {
+    height: 43px !important;
+    border: 1px solid #d8e2e7;
+    border-radius: .25rem;
+}
+
+#searchDrivers:focus {
+    background: white;
+    text-shadow: none;
+}
+
+/*#login_username:focus,#login_password:focus{*/
+/*background:#FFF8DC*/
+/*}*/
+
+.typeahead-field {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+.typeahead-query {
+    width: 75%;
+}
+
+#categories {
+    height: 36px;
+}
+
+ul.typeahead-dropdown li {
+    margin-bottom: 10px;
+    color: #0b2e13;
+}
+
+ul.typeahead-dropdown li a {
+    color: #0b2e13;
+}
+
+ul.typeahead-dropdown li a:hover {
+    color: #0082c6;
+}
+
+.typeahead-dropdown .divider {
+    height: 1px;
+    margin: 5px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+ul.typeahead-dropdown.dropdown-menu {
+    border: 1px solid #d8e2e7;
+}
+
+.typeahead-filter-value {
+    color: #0b2e13;
+}
+
+.dropdown-toggle .caret {
+    display: inline-block;
+    color: #0b2e13;
+    margin-left: 3px;
+}
+
+.glyphicon-refresh {
+    right: 5px;
+    text-align: right;
+    margin-top: -20px;
+    float: right;
+    color: #ffffff !important;
+    top: 10px
+
+}
+
+.glyphicon-refresh:hover {
+    color: #FFDE00 !important;
+
+}
+
+.dropdown.dropdown-typical a.dropdown-toggle:after {
+    color: #adb7be !important;
+}
+
+#driverList button.dropdown-toggle {
+    width: inherit;
+    background: transparent;
+    border: none;
+    height: 100%;
+    padding-bottom: 0px !important;
+    padding-top: 0%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+#driverList span.caret {
+    display: none
+}
+
+#driverList li {
+    height: 65px;
+}
+
+#driverList li div.btn-toolbar {
+    margin-left: 2px;
+    height: 95%;
+}
+
+#driverList li div.btn-toolbar div.dropdown {
+    width: 100%
+}
+
+#driverList button.dropdown-toggle span.lbl2 {
+    float: left;
+}
+
+#driverList ul.dropdown-menu {
+    width: 100px;
+    height: 195px;
+    position: absolute;
+    transform: translate3d(90px, -70px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+
+#driverList li.dropdown-item {
+    width: 100%;
+    height: 40px;
+    padding: 7px 15px 15px 15px !important;
+    text-align: left;
+    margin-top: 5px;
+}
+
+#driverList li.dropdown-item a {
+    padding: 0px !important;
+    color: #212529;
+}
+
+#driverList span.lbl2 {
+    padding: 6px 10px 2px 20px !important;
+}
+
+.col-md-12.rescue {
+    height: 48px;
+}
+
+#rescueDrivers, #reportTopic {
+    height: 100%;
+    border: 1px solid #D9D9D9;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 1100px) {
+    div.view_schedule .modal-dialog:not(.modal-sm):not(.modal-lg) {
+        width: 490px;
+
+    }
+}
+
+div.view_schedule .modal-dialog:not(.modal-sm):not(.modal-lg) {
+    width: 1100px;
+}
+
+#resque .input-group-addon {
+    cursor: pointer
+}
+
+select.select2 .select2-container.select2-container--default.select2-container--below {
+    width: 40px !important;
+    height: 48px;
+    margin-left: 86%;
+    margin-top: -68px;
+}
+
+#schedule_route .modal-dialog {
+     width:1100px;
+ }
+
+#progress_statics .modal-dialog {
+    width: auto;
+}
+
+#hourly_report .modal-dialog {
+    width: fit-content;
+}
+
+#react-confirm-alert .react-confirm-alert-overlay {
+    z-index: 99999999999999999;
+}
+
+div.form-group.clockpicker {
+    padding: 6px 0 6px 0;
+    margin-bottom: 0px !important;
+}
+
+.react-datepicker-wrapper .react-datepicker-popper {
+    position: absolute;
+    will-change: transform;
+    top: 100% !important;
+    left: 0px;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+#hrReportForm .datePickerBtn {
+    padding: 0;
+    border: none;
+    width: 100%;
+    background: #ffde00;
+}
+
+#hrReportForm i.font-icon-calend {
+    margin-top: 14px;
+    z-index: 99999999;
+    width: 20%;
+    color: #0a0a0a;
+}
+
+ #hrReportForm #daterange3 {
+    width: 80%;
+    font-weight: normal;
+}
+
+#hrReportForm .flex {
+    width: 10%
+}
+
+#hrReportForm .col-md-1.mobile-center img {
+    margin-left: -10px
+}
+
+#hrReportForm .row.datepicker, .row.timepicker {
+    display: flex
+}
+
+#hrReportForm .input-group.date {
+    width: 80%
+}
+
+#hrReportForm .row.datepicker .col-md-1 {
+    position: relative;
+    width: 10%;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+#hrReportForm .row.timepicker .col-md-1 {
+    width: 20%;
+    margin-top: 10px;
+}
+
+#hrReportForm .font-icon-calend:before {
+    top: 10px;
+    left: 4px;
+}
+
+ table.table-condensed td.active.start-date{
+    background-color: #ffde00;
+}
+
+ #dispatcher_report .modal-dialog,#vehicle_inspections .modal-dialog,#inspections_view .modal-dialog,#supplies .modal-dialog{
+     width: 850px;
+ }
+
+#inspections_view .row.car-info{
+max-width: 100%;
+
+}
+#inspections_view .row.car-info table {
+   margin-left: 4%;
+
+}
+#inspections_view row.car-info table td{
+    border-right: none;
+    border-left:none;
+
+}
+#inventory .modal-dialog,#view_inventory .modal-dialog,#complete_day .modal-dialog,#reports_complete .modal-dialog,
+#progress_statics .modal-dialog
+{
+    width:1100px;
+}
+
+.view_inventory .col-md-8
+{height: 100%}
+#hrReportForm .select2{
+    height: 48px !important;
+    background: #fff !important;
+}
+.off_track{
+    color: red;
+}
+.on_track{
+    color:green
+}
+#scheduleContent,#routeContent,#rtsContent{
+    display:flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+#map{
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223)
+}
+
+.side-menu
+{
+    padding-top: 15px !important;
+}
